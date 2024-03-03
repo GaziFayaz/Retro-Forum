@@ -14,6 +14,13 @@
 			type="text/css"
 		/>
 		<script src="https://cdn.tailwindcss.com"></script>
+		
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+			rel="stylesheet"
+		/>
 		<script>
 			tailwind.config = {
 				theme: {
@@ -23,18 +30,15 @@
 							default: "#12132D",
 							primary: "#797DFC",
 						},
+						fontFamily: {
+							mulish: ['mulish', 'sans-serif'],
+						},
 					},
 				},
 			};
 		</script>
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
-			rel="stylesheet"
-		/>
 	</head>
-	<body>
+	<body class="font-mulish">
 		<nav class="lg:mx-32 mb-6 lg:mb-12">
 			<div class="navbar bg-base-100">
 				<div class="flex-1">
@@ -226,6 +230,18 @@
 						</div>
 					</div>
 				</div>
+			</section>
+			<section class="join-our-forum bg-[#12132D] flex flex-col-reverse lg:flex-row rounded-xl lg:rounded-[32px]">
+				<div class="join-forum-text p-6 lg:pl-[90px] lg:py-24">
+					<h1 class="join-forum-title text-white text-[40px] font-[900] mb-4">
+						Join Our Forum
+					</h1>
+					<p class="join-forum-desc text-white mb-8">
+						Share your favorite opinion and win and wp forum coffee mug! Yes, you can run unit tests and view the results directly within the app.
+					</p>
+					<button class="register-button btn bg-primary text-white rounded-full px-10 font-bold text-xl border-none">Register Now</button>
+				</div>
+				<img src="./images/joinforum.png" alt="" class="py-10">
 			</section>
 		</main>
 	</body>
