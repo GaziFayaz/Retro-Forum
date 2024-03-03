@@ -121,14 +121,14 @@
 				class="lets-discuss mb-12 flex flex-col  items-center justify-center"
 			>
 				<h1 class="discuss-title text-[40px] font-[900]">Let's Discuss</h1>
-				<p class="discuss-desc text-lg leading-[30px] w-3/4 lg:w-2/5 text-center">
+				<p class="discuss-desc text-lg leading-[30px] w-3/5 lg:w-2/5 text-center">
 					Yes, you can run unit tests and view the results directly within the
 					app. The integrated testing features allow for a streamlined .
 				</p>
-				<div class="contents-section flex gap-6">
-					<div class="content-cards w-full">
-						<div class="content-card p-10 flex gap-6">
-							<div class="image-area border-2 border-red-600 relative rounded-2xl">
+				<div class="contents-section flex gap-6 w-full">
+					<div class="content-cards w-full flex flex-col gap-6">
+						<div class="content-card w-full p-10 flex gap-6 bg-[#F3F3F5] rounded-3xl">
+							<div class="image-area border-2 border-red-600 relative rounded-2xl min-h-[72px] h-[72px] min-w-[72px]">
 								<img src="./images/logo.png" alt="" class="h-[72px] w-[72px]" />
 								<i
 									class="fa-solid fa-circle text-red-500 absolute -top-1 -right-2"
@@ -145,7 +145,7 @@
 								<p class="card-desc">
 									It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative
 								</p>
-								<div class="interactions-duration flex gap-6">
+								<div class="interactions-duration flex gap-6 w-full">
 									<div class="comment-count flex gap-3 items-center">
 										<i class="fa-regular fa-message"></i>
 										<h6>560</h6>
@@ -158,11 +158,73 @@
 										<i class="fa-regular fa-clock"></i>
 										<h6>5 min</h6>
 									</div>
+									<button class="btn rounded-full py-0 bg-green-500 item place-self-end">
+										<i class="fa-regular fa-envelope-open text-white font-bold"></i>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div class="content-card w-full p-10 flex gap-6 bg-[#F3F3F5] rounded-3xl">
+							<div class="image-area border-2 border-red-600 relative rounded-2xl min-h-[72px] h-[72px] min-w-[72px]">
+								<img src="./images/logo.png" alt="" class="h-[72px] w-[72px]" />
+								<i
+									class="fa-solid fa-circle text-red-500 absolute -top-1 -right-2"
+								></i>
+							</div>
+							<div class="card-details flex flex-col">
+								<div class="category-author flex gap-5">
+									<h3 class="category"># Music</h3>
+									<h3 class="author">Author: Awlad Hossain</h3>
+								</div>
+								<h1 class="card-title">
+									10 Kids Unaware of Their Halloween Costume
+								</h1>
+								<p class="card-desc">
+									It’s one thing to subject yourself to ha Halloween costume mishap because, hey that’s your prerogative
+								</p>
+								<div class="interactions-duration flex gap-6 w-full">
+									<div class="comment-count flex gap-3 items-center">
+										<i class="fa-regular fa-message"></i>
+										<h6>560</h6>
+									</div>
+									<div class="impressions flex gap-3 items-center">
+										<i class="fa-regular fa-eye"></i>
+										<h6>1,560</h6>
+									</div>
+									<div class="expected-read-time  flex gap-3 items-center">
+										<i class="fa-regular fa-clock"></i>
+										<h6>5 min</h6>
+									</div>
+									<button class="btn rounded-full py-0 bg-green-500 item place-self-end">
+										<i class="fa-regular fa-envelope-open text-white font-bold"></i>
+									</button>
 								</div>
 							</div>
 						</div>
 					</div>
-					<div class="read-contents"></div>
+					<div class="read-contents flex flex-col w-2/5 p-6 bg-[#F3F3F5] rounded-3xl gap-4">
+						<div class="title-read-count flex justify-between">
+							<h3>Title</h3>
+							<div class="mark-as-read-count-area flex items-center gap-2">
+								<i class="fa-solid fa-check-double text-green-500"></i>
+								<p class="mark-as-read-text">Mark as read (4)</p>
+							</div>
+						</div>
+						<div class="read-content flex p-4 bg-white rounded-2xl">
+							<h3 class="content-title">10 Kids Unaware of Their Halloween Costume</h3>
+							<div class="impressions flex items-center gap-2">
+								<i class="fa-regular fa-eye"></i>
+								<p class="impression-count">1,568</p>
+							</div>
+						</div>
+						<div class="read-content flex p-4 bg-white rounded-2xl">
+							<h3 class="content-title">10 Kids Unaware of Their Halloween Costume</h3>
+							<div class="impressions flex items-center gap-2">
+								<i class="fa-regular fa-eye"></i>
+								<p class="impression-count">1,568</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</section>
 		</main>
