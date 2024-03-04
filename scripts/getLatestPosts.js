@@ -8,7 +8,7 @@ function displayLatestPosts() {
 			contentContainer = document.getElementById("latest-posts-container");
 			// // console.log(contentContainer)
 			for (const post of posts) {
-				console.log(post);
+				// console.log(post);
 				contentCard = document.createElement("div");
 				classes =
 					"latest-post flex flex-col p-6 border border-[#12132D26] rounded-3xl gap-4".split(
